@@ -1,6 +1,8 @@
 import React from "react"
 
 import Card from 'react-bootstrap/Card'
+import { FaChevronDown, FaChevronUp } from "react-icons/fa";
+
 
 
 class ExperienceCard extends React.Component {
@@ -28,7 +30,7 @@ class ExperienceCard extends React.Component {
     console.log(this.props.clicked, this.state.clicked)
 
     return (
-      <div className="p-3" onClick={() => this.handleClick()}>
+      <div className="p-3" >
           <Card className="shadow">
 
               <Card.Body >
@@ -58,6 +60,9 @@ class ExperienceCard extends React.Component {
                   {this.props.points.map(r => (<li>{r}</li>))}
                   </ul>
                 </div>
+                <FaChevronDown className="float-right arrow-btn" hidden={this.state.clicked} onClick={() => this.handleClick()}/>
+                <FaChevronUp className="float-right arrow-btn" hidden={!this.state.clicked} onClick={() => this.handleClick()}/>
+
               </Card.Body>
 
 

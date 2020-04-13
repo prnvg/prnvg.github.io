@@ -33,10 +33,10 @@ class Experience extends Component {
     render() {
       console.log(this.state.expand)
         return (
-            <div className="p-5">
+            <div className="p-2">
             <h1 className="subtopic">My Experience</h1>
-            <Button variant="success" onClick={() => this.handleExpand()}>Expand All</Button>{' '}
-            <Button variant="danger" onClick={() => this.handleCollapse()}>Collapse All</Button>
+            <Button hidden variant="success" onClick={() => this.handleExpand()}>Expand All</Button>{' '}
+            <Button hidden variant="danger" onClick={() => this.handleCollapse()}>Collapse All</Button>
             <ExperienceCard
                 company= "Koder, Inc"
                 title= "Software Engineer Intern"

@@ -33,10 +33,10 @@ class Skills extends Component {
     render() {
       console.log(this.state.expand)
         return (
-            <div className="p-5">
+            <div className="p-2">
             <h1 className="subtopic">My Skills</h1>
-            <Button variant="success" onClick={() => this.handleExpand()}>Expand All</Button>{' '}
-            <Button variant="danger" onClick={() => this.handleCollapse()}>Collapse All</Button>
+            <Button hidden variant="success" onClick={() => this.handleExpand()}>Expand All</Button>{' '}
+            <Button hidden variant="danger" onClick={() => this.handleCollapse()}>Collapse All</Button>
             <div className="row justify-content-center mt-4">
                 <SkillCard
                     className="col-lg-2"

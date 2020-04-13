@@ -35,8 +35,8 @@ class MyNavbar extends Component {
                     <LinkContainer className="link" to="/about"><Nav.Link>About</Nav.Link></LinkContainer>
                     <LinkContainer className="link" to="/education"><Nav.Link>Education</Nav.Link></LinkContainer>
                     <LinkContainer className="link" to="/experience"><Nav.Link>Experience</Nav.Link></LinkContainer>
-                    <LinkContainer className="link" to="/projects"><Nav.Link>Projects</Nav.Link></LinkContainer>
-                    <LinkContainer className="link" to="/blog"><Nav.Link>Blog</Nav.Link></LinkContainer>
+                    <LinkContainer hidden className="link" to="/projects"><Nav.Link>Projects</Nav.Link></LinkContainer>
+                    <LinkContainer hidden className="link" to="/blog"><Nav.Link>Blog</Nav.Link></LinkContainer>
                     <LinkContainer className="link" to="/skills"><Nav.Link>Skills</Nav.Link></LinkContainer>
                     <LinkContainer className="link" to="/contact"><Nav.Link>Contact</Nav.Link></LinkContainer>
                   </Nav>
