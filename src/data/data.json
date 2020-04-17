@@ -1,0 +1,162 @@
+{
+
+  "home": {
+    "image": "https://drive.google.com/uc?id=1VSA0eRkiIOxjXks45fOSULVO05Kd9wz_",
+    "staticText": "I am",
+    "varyingText": ["Pranav Gupta.", "a Machine Learning Engineer.", "a Web Developer."],
+    "social": {
+      "medium": "https://medium.com/@prnvg",
+      "facebook": "https://www.facebook.com/prnvg",
+      "linkedin": "https://Linkedin.com/in/prnvg",
+      "instagram": "https://Instagram.com/prnv_g",
+      "github": "https://github.com/prnvg"
+    }
+  },
+
+  "about": {
+    "pageTitle": "About Me",
+    "salutation": "Hello, World!",
+    "heading": "I am Pranav Gupta.",
+    "headline": "Machine Learning Engineer | Software Developer",
+    "details": "Grad student at USC majoring in Computer Science. I am keenly interested in creating and developing software that solves real-world problems. Passionate about leveraging data to make efficient decisions by predicting the future. Although most of my work experience revolves around designing data-driven software, I am open and excited to explore other areas as well. Actively looking for full-time job starting June 2020."
+  },
+
+  "education": {
+    "pageTitle": "My Education",
+    "details": [
+      {
+        "degree": "Master of Science in Computer Science",
+        "university": "University of Southern California",
+        "gpa": "3.88/4",
+        "to": "May 2020",
+        "from": "August 2018",
+        "image": "https://drive.google.com/uc?id=107nOMGg7EH1Pnv6DMP1kDzg48Xl95ZrU",
+        "courses": "Analysis of Algorithms, Database Systems, Web Technologies, Data Mining, Natural Language Processing, AR/VR, Applied ML for Games"
+      },
+      {
+        "degree": "Bachelor of Technology in Information Technology",
+        "university": "Guru Gobind Singh Indraprastha University",
+        "gpa": "8.4/10",
+        "to": "July 2018",
+        "from": "August 2014",
+        "image": "https://drive.google.com/uc?id=1i-aKbnv6P2x-aF-Hf4fL4JnNX3Vfc7rE",
+        "courses": "Algorithms, Web Technologies, Software Engineering, Operating Systems, Artificial Intelligence, Soft Computing"
+      }
+    ]
+  },
+
+  "experience": {
+    "pageTitle": "My Experience",
+    "details": [
+      {
+        "company": "Koder, Inc",
+        "title": "Software Engineer Intern",
+        "location": "Irvine, CA",
+        "to": "February 2020",
+        "from": "January 2020",
+        "image": "https://drive.google.com/uc?id=1zSgsH1SMDYvdsxfF_CnRgXv4-YiCDD93",
+        "points": ["Designing and developing APIs and web applications using ASP.NET, SQL Server, Postman, Visual Studio."]
+      },
+      {
+        "company": "Activision Blizzard",
+        "title": "Software Engineer Co-op",
+        "location": "Santa Monica, CA",
+        "to": "January 2020",
+        "from": "May 2019",
+        "image": "https://drive.google.com/uc?id=1lrQ3i8W78B8N4xnbwrCcd6T4uwT9ivEx",
+        "points": ["Optimized a reinforcement learning model designed to send personalized messages to Call of Duty players achieving 700% more increase in average revenue per user and 2300% more increase in engagement (hours per user) as compared to human-based effortby modelling player data with Monte Carlo Tree Search and Multi-Armed Bandit algorithm in python.",
+                   "Simulated players’ interaction with messages with accuracy of more than 90% on multiple KPIs by building Random Surfer model, eliminating the need to wait for players to generate data.",
+                   "Prepared dataset for utilization in statistical modeling for fraud detection by querying, cleaning, and organizing large volumes of data from a Hive data warehouse and examining it to find hidden patterns."]
+      },
+      {
+        "company": "University of Southern California",
+        "title": "Course Grader",
+        "location": "Los Angeles, CA",
+        "to": "May 2019",
+        "from": "September 2018",
+        "image": "https://drive.google.com/uc?id=1rlkXnEUa4_pCxkHkQW_WC6dLVLGIVkbB",
+        "points": ["Designed and graded homework assignments, exams, and final project for INF 510 - Principles of Programming for Data Science involving web scraping, descriptive analytics, and predictive modeling.",
+                   "Held office hours to clarify doubts and provide detailed feedback to 35-40 students."]
+      },
+      {
+        "company": "DataScribble",
+        "title": "Co-Founder",
+        "location": "Delhi, India",
+        "to": "July 2017",
+        "from": "December 2018",
+        "image": "https://drive.google.com/uc?id=1MNgDq8MChs1wQPak8-6ymtx3DEXb4-D5",
+        "points": ["Led conceptualization, platform creation, content generation, and marketing of an amateur blog on data science and machine learning garnering over 3000 unique readers per month; authored several articles.",
+                   "Conducted multiple sessions on introductory data science and machine learning as a guest speaker at premier engineering institutes across India catering to 650 students."]
+      },
+      {
+        "company": "So Delhi",
+        "title": "Machine Learning Intern",
+        "location": "Delhi, India",
+        "to": "May 2018",
+        "from": "January 2018",
+        "image": "https://drive.google.com/uc?id=1KqA8v09QonfDRcZ8OQuVYJ3pik3-ecJt",
+        "points": ["Built the core recommendation platform increasing reader engagement (read ratio) by 150% by designing collaborative and content-based recommendation systems using SVD and TF-IDF.",
+                   "Deployed as a real-time service through Flask connected to MongoDB database."]
+      },
+      {
+        "company": "Probus Insurance Brokers Ltd",
+        "title": "Data Sceince Intern",
+        "location": "Mumbai, India",
+        "to": "Jan 2020",
+        "from": "May 2019",
+        "image": "https://drive.google.com/uc?id=1s9MpTF0lzzl39nrkCAcHv74BEWmEMNQH",
+        "points": ["Optimized a reinforcement learning model designed to send personalized messages to Call of Duty players achieving 700% more increase in average revenue per user and 2300% more increase in engagement (hours per user) as compared to human-based effortby modelling player data with Monte Carlo Tree Search and Multi-Armed Bandit algorithm in python.",
+        "Simulated players’ interaction with messages with accuracy of more than 90% on multiple KPIs by building Random Surfer model, eliminating the need to wait for players to generate data.",
+        "Prepared dataset for utilization in fraud detection by querying, cleaning, and organizing data from a Hive data warehouse."]
+      },
+      {
+        "company": "PolicyBoss",
+        "title": "Data Analytics Intern",
+        "location": "Mumbai, India",
+        "to": "Jan 2020",
+        "from": "May 2019",
+        "image": "https://drive.google.com/uc?id=1IlG9EwjFah3IaBPkH3tpm1WK4jGGDMfx",
+        "points": ["Optimized a reinforcement learning model designed to send personalized messages to Call of Duty players achieving 700% more increase in average revenue per user and 2300% more increase in engagement (hours per user) as compared to human-based effortby modelling player data with Monte Carlo Tree Search and Multi-Armed Bandit algorithm in python.",
+        "Simulated players’ interaction with messages with accuracy of more than 90% on multiple KPIs by building Random Surfer model, eliminating the need to wait for players to generate data.",
+        "Prepared dataset for utilization in fraud detection by querying, cleaning, and organizing data from a Hive data warehouse."]
+      }
+    ]
+  },
+
+  "skills": {
+    "pageTitle": "My Skills",
+    "details": [
+      {
+        "title": "Programming Languages",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTTANjWpaoiipVPzuXBeY6ndLXripVV8azcHTvBc318YOfmPgyfg&s",
+        "points": ["Python", "C/C++", "Java", "C#", "Gremlin", "HTML", "CSS", "JavaScript"]
+      },
+      {
+        "title": "Tools and Frameworks",
+        "image": "https://i7.pngguru.com/preview/569/868/936/test-automation-software-testing-software-framework-selenium-automation.jpg",
+        "points": ["Scikit-Learn", "TensorFlow", "Pandas", "NumPy", "Hadoop", "Spark", "Jupyter", "Natural Language ToolKit", "Git"]
+      },
+      {
+        "title": "Databases",
+        "image": "https://2s7gjr373w3x22jf92z99mgm5w-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/database_federated_shutterstock_Hermin.jpg",
+        "points": ["MySQL", "PostgreSQL", "MongoDB", "Cassandra", "Hive", "Redshift"]
+      },
+      {
+        "title": "Cloud Technologies",
+        "image": "https://i.pcmag.com/imagery/articles/01nZo4Ot4FUIqaAccrCZGN9-9.fit_scale.size_2698x1517.v1569490627.jpg",
+        "points": ["Google Cloud Platform", "Amazon Web Services"]
+      },
+      {
+        "title": "Operating Systems",
+        "image": "https://betanews.com/wp-content/uploads/2016/08/operating-system.jpg",
+        "points": ["MacOS", "Windows", "Linux"]
+      }
+    ]
+  },
+
+  "contact": {
+    "pageTitle": "Contact Me",
+    "email": "pranav.gupta.cse@gmail.com"
+  }
+
+}

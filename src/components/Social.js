@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
+import { FaGithub, FaFacebook, FaMedium, FaInstagram, FaLinkedin } from "react-icons/fa";
+
 
 class Social extends Component {
     render() {
         return (
-            <div class="social">
-            <a href="https://github.com/prnvg" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://Instagram.com/prnv_g" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.facebook.com/prnvg" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://Linkedin.com/in/prnvg" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://medium.com/@prnvg" target="_blank"><i class="fab fa-medium-m"></i></a>
+            <div className="social" style={{textAlign: "center"}}>
+              <a href={this.props.data.github} target="_blank"><i><FaGithub /></i></a>
+              <a href={this.props.data.instagram} target="_blank"><i><FaInstagram /></i></a>
+              <a href={this.props.data.facebook} target="_blank"><i><FaFacebook /></i></a>
+              <a href={this.props.data.linkedin} target="_blank"><i><FaLinkedin /></i></a>
+              <a href={this.props.data.medium} target="_blank"><i><FaMedium /></i></a>
             </div>
             )
         }

@@ -7,11 +7,13 @@ import Social from '../components/Social'
 
 class Home extends Component {
     render() {
+      console.log(this.props.data)
         return (
             <div className="condiv home">
-            <img src={profilepic} className="profilepic"></img>
-            <ReactTypingEffect className="typingeffect" staticText="I am" text={['Pranav Gupta', 'a Machine Learning Engineer.', 'a Web Developer.']} speed={100} eraseDelay={700} typingDelay={1000}/>
-            <Social />
+            <img src={this.props.data.image} className="profilepic"></img>
+            <ReactTypingEffect className="typingeffect" staticText={this.props.data.staticText} text={this.props.data.varyingText} speed={100} eraseDelay={700} typingDelay={1000}/>
+            <br/>
+            <Social data={this.props.data.social}/>
             </div>
             )
         }

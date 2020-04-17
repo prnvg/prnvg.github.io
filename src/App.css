@@ -95,7 +95,7 @@ p{
 h1,h2,h3,h4,p{
   margin: 10px;
 }
-.social
+.social__
 {
   position: absolute;
   margin-top: 20px;
@@ -165,15 +165,12 @@ h1,h2,h3,h4,p{
   .social
   {
     left:0;
-    width: 100vw;
+    /*width: 100vw;*/
     display: flex;
     justify-content: space-around;
-    bottom: 30px;
+    /*bottom: 30px;*/
   }
-  .social i
-  {
-    padding-right: 0px;
-  }
+
 }
 
 @media screen and (min-width: 601px) {

@@ -3,9 +3,9 @@ import Social from '../components/Social';
 class Contact extends Component {
     render() {
         return (
-            <div className="condiv">
-            <h1 className="subtopic">Contact Me</h1>
-            <h3>Email  :   pranav.gupta.cse@gmail.com</h3>
+            <div className="p-2">
+            <h1 className="subtopic">{this.props.data.pageTitle}</h1>
+            <h3>Email  :   {this.props.data.email}</h3>
             <Social />
             </div>
             )
