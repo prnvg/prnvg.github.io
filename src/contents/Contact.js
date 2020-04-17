@@ -6,7 +6,6 @@ class Contact extends Component {
             <div className="p-2">
             <h1 className="subtopic">{this.props.data.pageTitle}</h1>
             <h3>Email  :   {this.props.data.email}</h3>
-            <Social />
             </div>
             )
         }
