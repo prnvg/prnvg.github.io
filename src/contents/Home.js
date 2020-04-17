@@ -13,7 +13,7 @@ class Home extends Component {
             <img src={this.props.data.image} className="profilepic"></img>
             <ReactTypingEffect className="typingeffect" staticText={this.props.data.staticText} text={this.props.data.varyingText} speed={100} eraseDelay={700} typingDelay={1000}/>
             <br/>
-            <Social data={this.props.data.social}/>
+            <Social data={this.props.social}/>
             </div>
             )
         }

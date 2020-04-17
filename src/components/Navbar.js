@@ -27,22 +27,22 @@ class MyNavbar extends Component {
         return (
             <div>
               <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="mynavbar">
-              <Navbar.Brand href="/home">Pranav Gupta<img src={bulb} width="25px"/></Navbar.Brand>
+              <Navbar.Brand href="/home">{this.props.data.name}<img src={bulb} width="25px"/></Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="mr-auto">
-                    <LinkContainer className="link" to="/home"><Nav.Link>Home</Nav.Link></LinkContainer>
-                    <LinkContainer className="link" to="/about"><Nav.Link>About</Nav.Link></LinkContainer>
-                    <LinkContainer className="link" to="/education"><Nav.Link>Education</Nav.Link></LinkContainer>
-                    <LinkContainer className="link" to="/experience"><Nav.Link>Experience</Nav.Link></LinkContainer>
-                    <LinkContainer hidden className="link" to="/projects"><Nav.Link>Projects</Nav.Link></LinkContainer>
-                    <LinkContainer hidden className="link" to="/blog"><Nav.Link>Blog</Nav.Link></LinkContainer>
-                    <LinkContainer className="link" to="/skills"><Nav.Link>Skills</Nav.Link></LinkContainer>
-                    <LinkContainer className="link" to="/contact"><Nav.Link>Contact</Nav.Link></LinkContainer>
+                    <LinkContainer className="link" to={"/"+this.props.data.home.tabTitle} hidden={this.props.data.home.hidden}><Nav.Link>{this.props.data.home.tabTitle}</Nav.Link></LinkContainer>
+                    <LinkContainer className="link" to={"/"+this.props.data.about.tabTitle} hidden={this.props.data.about.hidden}><Nav.Link>{this.props.data.about.tabTitle}</Nav.Link></LinkContainer>
+                    <LinkContainer className="link" to={"/"+this.props.data.education.tabTitle} hidden={this.props.data.education.hidden}><Nav.Link>{this.props.data.education.tabTitle}</Nav.Link></LinkContainer>
+                    <LinkContainer className="link" to={"/"+this.props.data.experience.tabTitle} hidden={this.props.data.experience.hidden}><Nav.Link>{this.props.data.experience.tabTitle}</Nav.Link></LinkContainer>
+                    <LinkContainer className="link" to={"/"+this.props.data.projects.tabTitle} hidden={this.props.data.projects.hidden}><Nav.Link>{this.props.data.projects.tabTitle}</Nav.Link></LinkContainer>
+                    <LinkContainer className="link" to={"/"+this.props.data.blog.tabTitle} hidden={this.props.data.blog.hidden}><Nav.Link>{this.props.data.blog.tabTitle}</Nav.Link></LinkContainer>
+                    <LinkContainer className="link" to={"/"+this.props.data.skills.tabTitle} hidden={this.props.data.skills.hidden}><Nav.Link>{this.props.data.skills.tabTitle}</Nav.Link></LinkContainer>
+                    <LinkContainer className="link" to={"/"+this.props.data.contact.tabTitle} hidden={this.props.data.contact.hidden}><Nav.Link>{this.props.data.contact.tabTitle}</Nav.Link></LinkContainer>
                   </Nav>
                 </Navbar.Collapse>
               </Navbar>
-              <Routes />
+              <Routes data={this.props.data}/>
             </div>
           )
         }

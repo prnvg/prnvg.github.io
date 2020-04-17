@@ -6,9 +6,6 @@ import Education from '../contents/Education'
 import Skills from '../contents/Skills'
 import Contact from '../contents/Contact'
 import Experience from '../contents/Experience'
-import data from '../data/data.json'
-
-
 
 class Routes extends React.Component {
   constructor(props){
@@ -17,16 +14,16 @@ class Routes extends React.Component {
   render() {
     return (
       <main>
-        <Redirect from="/" to="/home" />
+        <Redirect from="/" to={"/"+this.props.data.firstComponent} />
         <Switch>
-            <Route path="/" component={() => <Home data={data.home} />} exact/>
-            <Route path="/home" component={() => <Home data={data.home}/>} exact/>
-            <Route path="/about" component={() => <About data={data.about}/>} exact/>
-            <Route path="/education" component={() => <Education data={data.education}/>} exact/>
-            <Route path="/Experience" component={() => <Experience data={data.experience}/>} exact/>
-            <Route path="/skills" component={() => <Skills data={data.skills} />} exact/>
-            <Route path="/contact" component={() => <Contact data={data.contact}/>} exact/>
-            <Route component={Error} />
+            <Route path="/" exact/>
+            <Route path={"/"+this.props.data.home.tabTitle} component={() => <Home data={this.props.data.home} social={this.props.data.social} />} exact/>
+            <Route path={"/"+this.props.data.about.tabTitle} component={() => <About data={this.props.data.about}/>} exact/>
+            <Route path={"/"+this.props.data.education.tabTitle} component={() => <Education data={this.props.data.education}/>} exact/>
+            <Route path={"/"+this.props.data.experience.tabTitle} component={() => <Experience data={this.props.data.experience}/>} exact/>
+            <Route path={"/"+this.props.data.skills.tabTitle} component={() => <Skills data={this.props.data.skills} />} exact/>
+            <Route path={"/"+this.props.data.contact.tabTitle} component={() => <Contact data={this.props.data.contact}/>} exact/>
+            <Route component={() => (<></>)} />
         </Switch>
       </main>
     );

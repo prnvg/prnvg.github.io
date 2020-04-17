@@ -1,19 +1,29 @@
 {
 
+  "name": "Pranav Gupta",
+  
+  "firstComponent": "Home",
+
   "home": {
+    "tabTitle": "Home",
+    "hidden": false,
     "image": "https://drive.google.com/uc?id=1VSA0eRkiIOxjXks45fOSULVO05Kd9wz_",
     "staticText": "I am",
-    "varyingText": ["Pranav Gupta.", "a Machine Learning Engineer.", "a Web Developer."],
-    "social": {
-      "medium": "https://medium.com/@prnvg",
-      "facebook": "https://www.facebook.com/prnvg",
-      "linkedin": "https://Linkedin.com/in/prnvg",
-      "instagram": "https://Instagram.com/prnv_g",
-      "github": "https://github.com/prnvg"
-    }
+    "varyingText": ["Pranav Gupta.", "a Machine Learning Engineer.", "a Web Developer."]
+  },
+
+  "social": {
+    "hidden": false,
+    "medium": "https://medium.com/@prnvg",
+    "facebook": "https://www.facebook.com/prnvg",
+    "linkedin": "https://Linkedin.com/in/prnvg",
+    "instagram": "https://Instagram.com/prnv_g",
+    "github": "https://github.com/prnvg"
   },
 
   "about": {
+    "tabTitle": "About",
+    "hidden": false,
     "pageTitle": "About Me",
     "salutation": "Hello, World!",
     "heading": "I am Pranav Gupta.",
@@ -22,6 +32,8 @@
   },
 
   "education": {
+    "tabTitle": "Education",
+    "hidden": false,
     "pageTitle": "My Education",
     "details": [
       {
@@ -46,6 +58,8 @@
   },
 
   "experience": {
+    "tabTitle": "Experience",
+    "hidden": false,
     "pageTitle": "My Experience",
     "details": [
       {
@@ -123,7 +137,19 @@
     ]
   },
 
+  "projects": {
+    "tabTitle": "Projects",
+    "hidden": true
+  },
+
+  "blog": {
+    "tabTitle": "Blog",
+    "hidden": true
+  },
+
   "skills": {
+    "tabTitle": "Skills",
+    "hidden": false,
     "pageTitle": "My Skills",
     "details": [
       {
@@ -155,8 +181,11 @@
   },
 
   "contact": {
+    "tabTitle": "Contact",
+    "hidden": false,
     "pageTitle": "Contact Me",
-    "email": "pranav.gupta.cse@gmail.com"
+    "email": "pranav.gupta.cse@gmail.com",
+    "phone": "+1 (213) 476-7216"
   }
 
 }
