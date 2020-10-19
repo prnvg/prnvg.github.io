@@ -63,13 +63,25 @@
     "pageTitle": "My Experience",
     "details": [
       {
+        "company": "Insight Data Science",
+        "title": "Data Engineering Fellow",
+        "location": "Los Angeles, CA",
+        "to": "Present",
+        "from": "May 2020",
+        "image": "https://drive.google.com/uc?id=1zSgsH1SMDYvdsxfF_CnRgXv4-YiCDD93",
+        "points": ["Migrated multiple databases from Azure Data Studio to AWS S3 buckets and queried with Amazon Athena to provide a unified view of the data for a telehealth startup.",
+                   "Connected the pipeline with ​Tableau​ server to create dashboards of key operational metrics that are used by company’s business analysts and strategists."]
+      },
+      {
         "company": "Koder, Inc",
         "title": "Software Engineer Intern",
         "location": "Irvine, CA",
         "to": "February 2020",
         "from": "January 2020",
         "image": "https://drive.google.com/uc?id=1zSgsH1SMDYvdsxfF_CnRgXv4-YiCDD93",
-        "points": ["Designing and developing APIs and web applications using ASP.NET, SQL Server, Postman, Visual Studio."]
+        "points": ["Prototyped APIs and web applications utilising Model-View-Controller architecture in ASP.NET.",
+                   "Established and connected to the backend database on SQL Server.",
+                   "Tested and validated proper functioning of APIs using Postman."]
       },
       {
         "company": "Activision Blizzard",
